@@ -63,6 +63,7 @@ export enum PostUsersSignInDataMailingListStatus {
 export enum PostUsersSignInDataAutoSelectSubtitle {
   Disable = 0,
   Enable = 1,
+  Always = 2,
 }
 
 /**
@@ -71,6 +72,8 @@ export enum PostUsersSignInDataAutoSelectSubtitle {
 export enum PostUsersSignInDataDefaultSubtitleAccessibility {
   Disable = 0,
   Enable = 1,
+  SDHOnly = 2,
+  NonSDH = 3,
 }
 
 /**
@@ -79,6 +82,8 @@ export enum PostUsersSignInDataDefaultSubtitleAccessibility {
 export enum PostUsersSignInDataDefaultSubtitleForced {
   Disable = 0,
   Enable = 1,
+  Forced = 2,
+  NonForced = 2
 }
 
 /**
